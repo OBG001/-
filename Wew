@@ -1,1 +1,2 @@
-print wew
+def O_BG():
+   print("OBG is here")
