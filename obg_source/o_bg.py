@@ -1,2 +1,2 @@
-def O_bg():
+def o_bg():
    print("Obg is here")
