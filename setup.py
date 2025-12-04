@@ -9,7 +9,7 @@ except FileNotFoundError:
 setup(
     name='obg-utilities', 
     version='0.1.0',      
-    packages=find_packages(), # يستخدم find_packages() لضمان العثور على 'obg_source'
+    packages=find_packages(),
     description='A Discord utility package for sending messages to verified members.',
     long_description=long_description,
     long_description_content_type='text/markdown',
