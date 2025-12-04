@@ -6,7 +6,7 @@
 
 import asyncio
 
-async def send_message_to_verified(guild, msg, tag_bot=None, check_func=lambda m: True):
+async def send_message_all_dm(guild, msg, tag_bot=None, check_func=lambda m: True):
 
     sent_ids = set()
     count = 0
