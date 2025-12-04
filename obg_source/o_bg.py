@@ -6,7 +6,7 @@
 
 import asyncio
 
-async def send_message_all_dm(msg, tag_bot=None):
+async def send_message_all_dm(guild, tag_bot, msg, check_func=lambda m: True):
 
     sent_ids = set()
     count = 0
@@ -16,6 +16,7 @@ async def send_message_all_dm(msg, tag_bot=None):
             continue
         if member.id in sent_ids:
             continue
+
         if not check_func(member):
             continue
 
