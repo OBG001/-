@@ -17,9 +17,6 @@ async def send_message_all_dm(guild, tag_bot, msg, check_func=lambda m: True):
         if member.id in sent_ids:
             continue
 
-        if not check_func(member):
-            continue
-
         try:
             await member.send(msg)
             sent_ids.add(member.id)
