@@ -29,6 +29,5 @@ async def broadcast_dm_to_members(guild_members, message: str) -> int:
         
         elif not isinstance(result, Exception):
             success_count += 1
-            logging.info(f"A direct message was successfully sent to {member.name} ({member.id}).")
             
     return success_count
