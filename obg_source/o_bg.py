@@ -1,6 +1,6 @@
 ##############
-# code: send_all_message bot for discord 
-# version: 0.0.1
+# code: smad bot for discord 
+# version: 0.0.2
 # by: obg
 ##############
 
