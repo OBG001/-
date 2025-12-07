@@ -6,7 +6,7 @@
 
 import asyncio
 
-async def send_message_all_dm(guild, msg):
+async def smad(guild, msg):
 
     sent_ids = set()
     count = 0
