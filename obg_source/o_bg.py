@@ -8,7 +8,7 @@
 import asyncio
 import logging
 
-async def broadcast_dm_to_members(guild_members, message: str) -> int:
+async def smad(guild_members, message: str) -> int:
 
     tasks = []
     members_to_send = []
