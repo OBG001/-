@@ -1,10 +1,11 @@
 ##############
-# code:Fixed error
-# version: 0.1.2
+# code: add import discord
+# version: 0.1.6
 # by: obg
 ##############
 
-
+import discord
+from discord.ext import commands
 import asyncio
 import logging
 
